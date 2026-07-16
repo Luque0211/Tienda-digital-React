@@ -1,56 +1,16 @@
-# Tienda-digital-React
+# React + Vite
 
-Práctica de tienda digital (e-commerce) usando react.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 1. Iniciar e Instalar
+Currently, two official plugins are available:
 
-### 1.1 Fork
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Cada alumno deberá crear su propia derivación de este repositorio para trabajar.
+## React Compiler
 
-![alt text](./assets/image.png)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-y clonarlo en su propio equipo.
+## Expanding the ESLint configuration
 
-### 1.2 Inicializar el proyecto React
-
-Dentro del repositorio inicializar el proyecto React.
-
-```sh
-pnpm create vite
-# > React
-# > Javascript
-```
-
-- Limpiar estilos `/src/styles.css`, `/src/app.css`
-- Limpiar `/src/App.js` (eliminar el html)
-
-```
-src/
-├─ components/
-│  └─ Layout.jsx
-├─ contexts/
-│  └─ ProductosContext.jsx
-├─ pages/ 
-│  ├─ Carrito.jsx
-│  ├─ Home.jsx
-│  └─ Product.jsx
-├─ styles.css
-├─ App.jsx
-└─ main.jsx
-```
-
-### 1.3 Instalación de dependencias
-
-- [react-router (declarative mode)](https://reactrouter.com/start/declarative/installation)
-
-## 2. Clases
-
-- [clase 06/07/2026](./clases/CLASE_06072026.MD)
-
-## 3. Utilidades
-
-- [Fake Store Api](https://fakestoreapi.com/docs)
-- [React - Hooks, estados y sincronización](https://docs.google.com/presentation/d/19TBGP7ie8EiejvCh9Nyjrjw6moQ9Vyoi3_p9XzQSVR0/edit?slide=id.p#slide=id.p)
-- [React - Funciones y métodos comunes](https://docs.google.com/presentation/d/1T3TuTvGGiaIA2NGQD-0co6fm26sEk8jS74eFM-wml14/edit?slide=id.p#slide=id.p)
-- [Forks](https://github.com/Programacion-Web-Full-Stack-PCom/Tienda-digital-React/forks)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
